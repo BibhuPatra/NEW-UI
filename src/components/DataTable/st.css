@@ -1,0 +1,25 @@
+.bulk{
+          height: 70px;
+          width: 150px;
+          box-sizing: border-box;
+          box-shadow: inset;
+          justify-content: center;
+          margin:15px auto;
+}
+.btn1{
+          height: 50px;
+          width: 150px;
+          box-sizing: border-box;
+          box-shadow: inset;
+          justify-content: center;
+          background-color: #fff;
+          color: black;
+          font-size: 19px;
+          border-radius: 5px;
+
+}
+.btn1:hover{
+          background-color: rgb(22, 21, 21);
+          color: rgb(255, 255, 255);
+          border-radius: 0px;
+}

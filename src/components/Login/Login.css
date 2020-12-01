@@ -1,0 +1,154 @@
+.BaseContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CostumHeader {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 30px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Image {
+    width: 21rem;
+    height: 8rem;
+
+}
+
+img {
+    width: 100%;
+}
+
+.Form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FormGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+label {
+    margin-top: 3px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    margin-top: 3px;
+    max-width: 20rem;
+    height: 37px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 31px;
+    transition: all 250ms ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+    background-color: rgb(255, 239, 242);
+}
+
+.Footer {
+    margin-top: 3rem;
+}
+
+.butn {
+    font-size: 21px;
+    padding: 5px 20px;
+    border: 0px;
+    background-color: #2386c2;
+    color: #ffff;
+    border-radius: 3px;
+    transition: all 250px ease-in-out;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.butn:hover {
+    background-color: #c56060;
+}
+
+.butn:focus {
+    outline: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 15px;
+    border-radius: 50px;
+}
+
+.fa:hover.fa-facebook {
+    /* opacity: 0.7; */
+    background-color: white;
+    color: #3B5998;
+    transition: 350ms ease-in-out;
+    box-shadow: 2px 3px 2px 1px #888888;
+}
+
+.fa:hover.fa-twitter {
+    /* opacity: 0.7; */
+    background-color: white;
+    color: #55ACEE;
+    transition: 350ms ease-in-out;
+    box-shadow: 2px 3px 2px 1px #888888;
+}
+
+.fa:hover.fa-google {
+    /* opacity: 0.7; */
+    background-color: white;
+    color: #dd4b39;
+    transition: 350ms ease-in-out;
+    box-shadow: 2px 3px 2px 1px #888888;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+/* .Btn_gool {
+    width: 180px;
+    border-radius: 30rem;
+    box-shadow: inset;
+}
+.Btn_gool:hover{
+    color: black;
+    background-color: #dd4b39;
+} */

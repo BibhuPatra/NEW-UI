@@ -1,0 +1,95 @@
+.BaseContainerr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+.CostumHeader {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 30px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Image {
+    width: 21rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.Form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FormGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+lable {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    margin-top: 3px;
+    max-width: 18em;
+    height: 37px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 31px;
+    transition: all 250ms ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px #0e81ce96;
+    background-color: rgb(255, 239, 242);
+}
+
+.Footer {
+    margin-top: 3rem;
+}
+.butn {
+    font-size: 21px;
+    padding: 5px 20px;
+    border: 0px;
+    background-color: #c56060;
+    color: #ffff;
+    border-radius: 3px;
+    transition: all 250px ease-in-out;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
+
+.butn:hover {
+    background-color: #3e89be;
+}
+
+.butn:focus {
+    outline: none;
+}
+
