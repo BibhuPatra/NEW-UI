@@ -17,8 +17,6 @@ function Navbar(props) {
       setButton(true);
     }
   };
-  // console.log(props.is)
-
   useEffect(() => {
     showButton();
   }, []);

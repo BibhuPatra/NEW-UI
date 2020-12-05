@@ -67,7 +67,7 @@ class GoogleBtn extends Component {
 						clientSecret = {Client_Secret}
 						buttonText='Login with Google'
 						onSuccess={this.login}
-						// uxMode="redirect"
+						uxMode="redirect"
 						redirectUri="http://localhost:3000/appdrawer"
 						onFailure={this.handleLoginFailure}
 						cookiePolicy={'single_host_origin'}

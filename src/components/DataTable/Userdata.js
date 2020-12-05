@@ -37,9 +37,9 @@ const useStyles = makeStyles({
 });
 
 export default function CustomizedTables() {
-	const [open, setOpen] = React.useState(false);
+	const [open,setOpen] = React.useState(false);
 	const classes = useStyles();
-const handleDrawerClose = () => {
+const handleClose = () => {
 	setOpen(true);
 	};
 		const URL = 'http://localhost:52511/api/Dashboard';
@@ -59,7 +59,7 @@ const handleDrawerClose = () => {
 	return (
 		<>
 			<div className="bulk">
-				<button className="btn1" onClick={handleDrawerClose}>Show DATA</button>
+				<button className="btn1" onClick={handleClose}>Show Data</button>
 			</div>
 		<TableContainer component={Paper}>
 			<Table className={classes.table} aria-label='customized table'>
